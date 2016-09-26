@@ -1,0 +1,10 @@
+Jelenleg mit használ a kedves unokatesónk kertészboltja? Informatikai rendszer. Jelenlegi helyzet
+Spec:
+1. jelenhelyzet
+*2. cél(megrendelõ mondta meg mit kell csinálni)
+3. környzeti feltételek (törvényi szabályozások, kedves megrendelõnek felettes szerve, törvények)
+4. jelenlegi folyamatok
+*5. megvalósítandó/elképzelt folyamatok
+*6. követelmény lista
+
+	
