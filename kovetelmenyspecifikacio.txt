@@ -1,10 +1,52 @@
-Jelenleg mit használ a kedves unokatesónk kertészboltja? Informatikai rendszer. Jelenlegi helyzet
-Spec:
-1. jelenhelyzet
-*2. cél(megrendelõ mondta meg mit kell csinálni)
-3. környzeti feltételek (törvényi szabályozások, kedves megrendelõnek felettes szerve, törvények)
-4. jelenlegi folyamatok
-*5. megvalósítandó/elképzelt folyamatok
-*6. követelmény lista
+A projekt megírásához PhP nyelvet választottuk, melyben egy receptes weboldalt szeretnénk létrehozni.
+Célunk egy olyan weboldal, mely alkalmas receptek feltöltésére, tárolására, keresésére, szerkesztésére, receptek értékelésére.
+A weboldalon regisztráció nélkül csak keresni lehet. Minden más egyébhez regisztráció szükséges.
 
-	
+1.  Jelenlegi helyzet: A receptes weboldalunk webes felületen, modern környezetben készül el.
+
+2. Cél: a megrendelõ szeretne, egy admin és egy felhasználói felületet is,
+ amin különbözõ jogosultságokkal tudják a felhasználók szerkezteni,
+ törölni illetve csak megtekinteni a recepteket. Ezen kívül legyen lehetõség a receptek keresésére is.
+
+3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása:
+Az adatkezelés jogalapja:
+Az adatkezelés során figyelembe vesszük a vonatkozó hatályos jogszabályokat, illetve a fontosabb nemzetközi ajánlásokat, különös tekintettel az alábbiakra: 
+
+•  A személyes adatok védelmérõl és a közérdekû adatok nyilvánosságáról szóló 1992. évi LXIII. törvény; 
+
+•  Az egyének védelmérõl a személyes adatok gépi feldolgozása során szóló 1998. évi VI. törvény; 
+
+•  A hírközlésrõl szóló 2001. évi XL. törvény VIII. fejezetében foglalt rendelkezések;
+   A hírközlési szolgáltató adatkezelésének különös feltételeirõl, a hírközlési szolgáltatások adatbiztonságáról,
+   valamint az azonosító-kijelzés és hívásátirányítás szabályairól szóló 253./2001. (XII. 18.) kormányrendelet; 
+
+•  Az elektronikus kereskedelemrõl szóló 2001. évi CVIII. törvény.
+
+A kezelt adatok köre:
+A waboldal használatához admin szinten szükséges megadni a következõket: név, e-mail.
+
+Személyes adatok törlése, módosítása:
+A honlapon keresztül rendelkezésre bocsátott személyes adatairól bármikor saját maga dönhet a felhsználó, törölheti, módosíthatja. 
+
+
+4. Jelenlegi folyamatok: tervezés, igény felmérés. 
+
+5. Megvalósítandó/elképzelt folyamatok: Projektunk célja, hogy felhasználó barát weboldalt hozzunk létre.
+ Ezek megvalósításához szükségesnek tartjuk, hogy egyszerû tiszta weboldal készüljön. 
+   - Adatbázis tervezés
+   - Felhasználói felület tervezés
+   - hozzáférési jogok
+   - keresõmotor megírása
+   - hibák kezelése
+
+6. Követelmény lista: Fontos, hogy a recepteket ne tudja bárki törölni és szerkeszteni.
+ Rregisztráció szükséges legyen hozzá.
+ A regisztrált felhasználók is csak a saját receptjeiket tudják, másét nem.
+ Azonban nem szükséges regisztráció receptek kereséséhez és megtekintéséhez.	
+   - felhasználóbarát grafikus felület
+   - használható keresõmotor -> gyors egyszerû keresés
+   - külön hozzáférés admin és látogatói szinten.
+   - rugalmas, homogén adatbázis
+   - redundancia kizására
+   - adatvédelem
+  
