@@ -1,0 +1,93 @@
+﻿Követelményspecifikáció:
+
+1. Jelenlegi helyzet:
+
+Jelenleg napjainkban otthon könyv formájában tudunk elérni recepteket vagy esetleg a neten különböző
+weblapok felkeresésével. Ezek között számos fajta és stílusú oldal megtalálható, de ez vonatkozik a 
+könyvekre is. Vannak olyan oldalak, melyek a recept tömegek miatt már átláthatatlanok. A könyvek
+idelye lassan lejár, hiszen ma már mindenki elektronikusan keresi a számára fontos információkat.
+Jelenleg azon dolgozunk, hogy kedvenc könyvben lévő recepjeinket felvigyük egy átlátható webes felületre,
+amely mások számára is használható.
+
+
+2. A cél:
+
+Célunk, hogy egy olyan weblapot készítsünk/fejlesszünk, amely megállja a helyét a többi hasonló
+oldal mellett és, hogy ez a receptes oldal lehetővé tegye a regisztrált személyek számára a kedvenc
+receptek összegyűjtését vagy, hogy esetleg saját ötleteiket is megosszák másokkal. Ennek eléréséhez
+célunk létrehozni egy könnyen kezelhető és jól áttekinthető weboldalt, melyben a regisztrált személy
+saját receptjeiket át is szerkeszthessék vagy akár ki is törölhessék. Azok számára, akik csak
+nézelődni "jönnek" az oldalra, egy átlátható és egy könnyen kereshető felületet szeretnénk.
+
+
+3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások:
+
+Az adatkezelés jogalapja:
+Az adatkezelés során figyelembe vesszük a vonatkozó hatályos jogszabályokat, illetve a fontosabb
+nemzetközi ajánlásokat, különös tekintettel az alábbiakra: 
+ - A személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény; 
+
+ - Az egyének védelméről a személyes adatok gépi feldolgozása során szóló 1998. évi VI. törvény; 
+
+ - A hírközlésről szóló 2001. évi XL. törvény VIII. fejezetében foglalt rendelkezések;
+   A hírközlési szolgáltató adatkezelésének különös feltételeiről, a hírközlési szolgáltatások adatbiztonságáról,
+   valamint az azonosító-kijelzés és hívásátirányítás szabályairól szóló 253./2001. (XII. 18.) kormányrendelet; 
+
+ - Az elektronikus kereskedelemről szóló 2001. évi CVIII. törvény.
+A kezelt adatok köre:
+A weboldal használatához admin szinten szükséges megadni a következőket: név, e-mail.
+
+Személyes adatok törlése, módosítása:
+A honlapon keresztül rendelkezésre bocsátott személyes adatairól bármikor saját maga dönhet a felhsználó,
+törölheti, módosíthatja. 
+ 
+ 
+4. Jelenlegi folyamatok: 
+
+A weblapunk php nyelven íródik, webes felületen és modern környezetben amely egy receptek 
+gyűjtésére szolgáló oldal. A jelenlegi helyzetben a weblapon működik a regisztráció,
+amely során a már a regisztrál személy tud recepteket nézegetni, kiválasztani a kedvenc receptjét,
+illetve kijelentkezni. A weboldalon működik egy nap receptje funkció, amely randomra választ ki
+egy receptet a már feltöltött receptekből. A feltöltött receptek között görgetéssel lehet keresni.
+A weboldalon regisztráció nélkül, csak keresni lehet a receptek között.
+A rendszer jelenlegi hibája az, hogy a regisztrált személy nem tud receptet feltölteni, illetve
+a saját feltöltött recepteket nem tudja szerkeszteni. A rendszerfejlesztés során ezeket a még 
+nem működő funkciókat próbáljuk megoldani. És ezek követelményként is vonatkoznak az új rendszerre.
+Jelenleg a felmerült hibák és fejlesztések létrehozásán dolgozunk, ami azt jelenti, hogy  rendszerben jelenleg 
+a regisztrált személy nem tud receptet feltölteni, illetve a saját feltöltött recepteket nem tudja szerkeszteni.
+Az ezekhez kapcsolódó adatbázisok és Php nyelven megírt programok már elkészültek, már csak ezek, a  gondtalan 
+felhasználás érdekében, megfelelő összeillesztése és beállírása szükséges. Illetve ezen kívül végzünk egy igény
+felmérést, valamint a beállítások tervezése zajlik éppen.
+ 
+ 
+ 5. Megvalósítandó/elképzelt folyamatok:
+ 
+Projektunk célja, hogy felhasználó barát weboldalt hozzunk létre a receptek könnyen elérhetősége érdekében.
+Ennek megvalósításához szükségünk van egy adatbázisra, mellyel könnyen kezelhetők a beépített funkciók.
+Megvalósítandó folyamat még a felhasználói felület tökéletesítése, ezáltal is áttekinthető lesz a weboldal.
+Az elképzelt folyamatokhoz sorolható a regisztráció utáni lehetőség recept feltöltésére, illetve azok
+szerkesztésére. További folyamatokban próbáljuk a felmerülő és az esetlegesen még meglévő hibák javítását.
+Ezek a folyamatok áttekinthetőse érdekében, a fejlesztésünket dokumentáljuk. Először elkészítjük a követelmény
+specifikációt, majd készítünk egy rendszertervet, ami részletesen bemutatja a jelenlegi és a fejlesztett weboldal
+leírását. Ehhez készítünk egy folyamatábrát, mely az oldal működését reprezentálja,valamint megjelenési terveket is 
+készítünk. Majd sorba vesszük a feladatokat, hibákat és egyesével megoldajuk és kijavítjuk azokat, míg el nem készül
+a jól működő oldalunk.
+
+
+6. Követelmény lista: 
+
+ - Regisztráció nélkül lehessen recepteket keresni. Törölni és szerkszteni ne.
+ - Legyen regisztrációs lehetőség, melynél a saját feltöltött receptek törölni és szerkeszteni lehessen.
+   Illetve kiválasztani a kedvenc recepteket.
+ - A weboldalon legyen egy nap recepje funkció, mely minden nap másik receptet választ ki.
+ - A regisztrált személy tudjon ki és bejelentkezni.
+ - Fontos a jól áttekinthető és kezelhető felület.
+ - Jól működő adatbázis, mely a funkciók működését segíti.
+ - Adatvédelem, a regisztrált felhasználók érdekében.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
