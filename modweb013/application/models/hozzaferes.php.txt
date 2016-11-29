@@ -1,5 +1,0 @@
-<?
-	class hozzaferes extends CI_Model
-	{
-		
-	}
