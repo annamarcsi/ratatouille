@@ -1,0 +1,137 @@
+________Rendszerterv:________
+
+1.Röviden:
+	-Mit?
+		- Egy felhasználó barát receptgyűjtő weboldalt hozzunk létre a receptek könnyen elérhetősége érdekében.
+		Akiknem már nem elegendőek az otthoni szakácskönyvek, ezen az oldalon könnyen kereshetnek, saját recepteket
+		oszthatnak meg másokkal.
+		
+	
+	Miért?	
+		- kedvenc receptjeink tárolásának céljából csináljuk a weblapot.
+
+2.Részletes:
+	-Mit? 
+		- Egy olyan receptgyűjtő oldalt tervezünk, melyen a felhasználó szabadon kereshet a már feltöltött
+		receptek között. Ha a felhasználó beregisztrál, akkor saját receptjeit is feltheti, illetve szerksztheti
+		vagy ki is törölheti azokat. A regisztrált felhasználó kedvenc recepteket is választhat majd magának.
+		Továbbá a weboldalon minden nap másik egy Nap Receptje jelenik meg, amely azt jelenti, hogy az oldal
+		minden nap kiválaszt randomra egy receptet, ami éppen az az napi Nap receptje lesz.
+		Célunk ennek a weboldal létrehozásával az, hogy azok az emberek akik megunták már a könyvekben keresgélést
+		vagy nincs türelmük egy nagy szabású receptgyűjtő oldal áttekintéséhez, az ezen az odlalon könnyedén megteheti 
+		ezeket és rendszerezheti a kedvenceit. A weboldalt Php nyelven készítjük.
+		
+	-Miért?
+		- A felhasználók szórakoztatása a cél, és érdeklődésük felkeltése
+		a főzés és a jobbnál jobbreceptek elérése érdekében.
+		Könnyed áttekinthetőség és rendszerezhetőség.
+		A rendszer célja:Célunk, hogy egy olyan weblapot készítsünk/fejlesszünk, amely megállja a helyét a többi hasonló
+		oldal mellett és, hogy ez a receptes oldal lehetővé tegye a regisztrált személyek számára a kedvenc
+		receptek összegyűjtését vagy, hogy esetleg saját ötleteiket is megosszák másokkal. Ennek eléréséhez
+		célunk létrehozni egy könnyen kezelhető és jól áttekinthető weboldalt, melyben a regisztrált személy
+		saját receptjeiket át is szerkeszthessék vagy akár ki is törölhessék. Azok számára, akik csak
+		nézelődni "jönnek" az oldalra, egy átlátható és egy könnyen kereshető felületet szeretnénk.
+		
+	-Hogyan?
+		- Iskolai fejlesztőcsapat munka keretein belül
+		álltunk neki a programnak. A csapat tagjai: Ácsfalvi Annamári és Törőcsik Dóra
+		
+	-Mikor?
+		- A fejlesztés első lépéseit 2016. szeptember közepén kezdtük el és egészen 2016. december 12-ig tart.
+	
+3.Fizikai Vetületek:
+		-Használt szoftverek:
+		
+			- Php nyelvet Notepad++ - ban írtuk. A PHP általános szerveroldali szkriptnyelv dinamikus weblapok készítésére.
+			- Xampp segítségével működtetjük a weboldalt.
+			- Felhasznált képek: Internet.
+			-GitHub: interneten publikáláshoz már készítés közben és a csapatmunkai folyamat része.
+			-MS office: a specifikációk, rendszerkövetelmények és egyéb dokumentációk elkészítése, ingyenes tanulói fiók.
+			-Windows operációs rendszer: ingyenes iskolai verzió.
+			
+			
+	-Hardware és hálózati topológia:
+		
+			-Két laptop
+			-Hozzájuk tartozó perifériák
+			-Aktív internet kapcsolat 
+			-Adatbázis: az adatok tárolásának
+			
+4.Logikai Vetületek:
+	-Követelmények:
+	
+		- A törvény betartásának érdekében minden képet olyan oldalakról szereztünk be melyről ingyenesen fel lehet ezeket használni.
+		- Minden olyan program mely ezen szoftver elkészítését szolgálta az is ingyenesen felhasználható.
+		- A weboldal nem nyílt forráskódú, csak a fejlesztők érek ezt el.
+		- A weboldal csak felhasználható.
+		
+
+
+5.Projekt terv:
+Fejlesztők: Ácsfalvi Annamária és Törőcsik Dóra
+		Mérföldkövek:
+			- Követelmény specifikáció elkészítése
+			- Rendszerterv bemutatása
+			- Kezdőkép elképzelésének bemutatása
+			- Folyamatábra bemutatása
+			- Megfelelően használható adatbázis létrehozása
+			- Szükséges funkciók programjainak megírása
+			- A funkciók összehangolása/beállítása
+			- Funkciók tesztelése
+			- Dizájn tervezése
+			- Végső tesztelés
+			
+			
+6. Megvalósítandó feladatok és követelmény lista:
+Projektunk célja, hogy felhasználó barát weboldalt hozzunk létre a receptek könnyen elérhetősége érdekében.
+Ennek megvalósításához szükségünk van egy adatbázisra, mellyel könnyen kezelhetők a beépített funkciók.
+Megvalósítandó folyamat még a felhasználói felület tökéletesítése, ezáltal is áttekinthető lesz a weboldal.
+Az elképzelt folyamatokhoz sorolható a regisztráció utáni lehetőség recept feltöltésére, illetve azok
+szerkesztésére. További folyamatokban próbáljuk a felmerülő és az esetlegesen még meglévő hibák javítását.
+Ezek a folyamatok áttekinthetőse érdekében, a fejlesztésünket dokumentáljuk. Először elkészítjük a követelmény
+specifikációt, majd készítünk egy rendszertervet, ami részletesen bemutatja a jelenlegi és a fejlesztett weboldal
+leírását. Ehhez készítünk egy folyamatábrát, mely az oldal működését reprezentálja,valamint megjelenési terveket is 
+készítünk. Majd sorba vesszük a feladatokat, hibákat és egyesével megoldajuk és kijavítjuk azokat, míg el nem készül
+a jól működő oldalunk.
+ - Regisztráció nélkül lehessen recepteket keresni. Törölni és szerkszteni ne.
+ - Legyen regisztrációs lehetőség, melynél a saját feltöltött receptek törölni és szerkeszteni lehessen.
+   Illetve kiválasztani a kedvenc recepteket.
+ - A weboldalon legyen egy nap recepje funkció, mely minden nap másik receptet választ ki.
+ - A regisztrált személy tudjon ki és bejelentkezni.
+ - Fontos a jól áttekinthető és kezelhető felület.
+ - Jól működő adatbázis, mely a funkciók működését segíti.
+ - Adatvédelem, a regisztrált felhasználók érdekében.
+			
+7.Funkconális tervek:
+			- Recepkönyv menü létrehozása
+			- Nap receptje menü létrehozása
+			- Adminisztráció (regisztrálás) létrehozása
+			- Ezen belül: Recept beküldése funkció
+			- Feltöltött receptek funkció
+			- Kedvenc receptek funkció
+			- Kijelentkezés lehetősége
+
+			
+8. Az adatkezelés jogalapja:
+Az adatkezelés során figyelembe vesszük a vonatkozó hatályos jogszabályokat, illetve
+a fontosabb nemzetközi ajánlásokat, különös tekintettel az alábbiakra: 
+
+•  A személyes adatok védelméről és a közérdekű adatok nyilvánosságáról szóló 1992. évi LXIII. törvény; 
+
+•  Az egyének védelméről a személyes adatok gépi feldolgozása során szóló 1998. évi VI. törvény; 
+
+•  A hírközlésről szóló 2001. évi XL. törvény VIII. fejezetében foglalt rendelkezések; 
+A hírközlési szolgáltató adatkezelésének különös feltételeiről, a hírközlési szolgáltatások adatbiztonságáról,
+valamint az azonosító-kijelzés és hívásátirányítás szabályairól szóló 253./2001. (XII. 18.) kormányrendelet; 
+
+•  Az elektronikus kereskedelemről szóló 2001. évi CVIII. törvény.
+
+A kezelt adatok köre:
+A szolgáltatás igénybevételéhez szükséges megadni a következőket: név, e-mail.
+
+Személyes adatok törlése, módosítása:
+A honlapon keresztül rendelkezésre bocsátott személyes adatairól bármikor saját maga dönthet, 
+a felhasználó törölheti, illetve módosíthatja azokat.
+	
+	
+	
