@@ -1,7 +1,3 @@
-<!-- <form action="adminisztracio" method="POST">
- <input type="text" name="keres" />
- <input type="submit" />
-</form>-->
 {foreach from=$receptek item=recept}
 <div>
 	<div class="imgbox" style="float:left;height:150px">
