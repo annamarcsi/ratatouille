@@ -11,6 +11,7 @@
 	<option value="2" {if ($adat.kategoria == "2")}selected{/if}>Leves</option>
 	<option value="3" {if ($adat.kategoria == "3")}selected{/if}>Főétel</option>
 	<option value="4" {if ($adat.kategoria == "4")}selected{/if}>Desszert</option>
+	<option value="5" {if ($adat.kategoria == "5")}selected{/if}>Koktélok</option>
 </select>
 </div>
 <div class="clear"></div>
