@@ -15,6 +15,7 @@
 			<br><br>
 			Nehézség: {$recept.nehezseg}<br>
 			Elk.Idő: {$recept.szuksegesido}<br>
+			Megtekintve: {$recept.megtekintve}<br>
 		</div>
 	</div>
 	<div style="clear:both"></div>
